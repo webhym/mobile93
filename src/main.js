@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import 'amfe-flexible/index.min.js'
 
 // vant导入
 import Vant from 'vant'
