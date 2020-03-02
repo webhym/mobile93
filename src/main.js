@@ -8,6 +8,10 @@ import 'amfe-flexible/index.min.js'
 import Vant from 'vant'
 // vant的样式导入
 import 'vant/lib/index.css'
+// 引入全局的自定义样式  因为要覆盖vant的样式
+// 注意：在vant都css样式导入之后设置
+import '@/assets/css/global.less'
+
 // vant的注册
 // 本质：全局方式注册了n多个组件和全局成员
 Vue.use(Vant)
