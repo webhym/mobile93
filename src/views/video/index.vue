@@ -1,13 +1,19 @@
 <template>
-  <div>video</div>
+  <div class='container'>
+    <van-skeleton title avatar :row="3" />
+    <van-skeleton title avatar :row="3" />
+    <van-skeleton title avatar :row="3" />
+  </div>
 </template>
 
 <script>
 export default {
-  name: ''
+  name: 'video-index'
 }
 </script>
 
-<style lang="less" scoped>
-
+<style scoped lang='less'>
+.van-skeleton{
+  margin-top: 10px;
+}
 </style>
