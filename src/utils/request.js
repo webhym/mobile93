@@ -53,7 +53,7 @@ instance.interceptors.request.use(function (config) {
 
 // 配置【响应拦截器】
 // f1(10,20)
-instance.interceptors.request.use(function (response) {
+instance.interceptors.response.use(function (response) {
   // 正常响应处理
   // 确认服务器端返回的数据：返回data、返回data.data
   // const result = await axios()
